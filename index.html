@@ -3,25 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create stunning landing pages in minutes</title>
     <meta name="description" content="Create professional landing pages quickly and easily with our powerful platform">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="font-sans antialiased text-gray-900 bg-white">
     <header class="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold text-gray-800">Logo</div>
+                <a href="https://test-acc-12349.github.io/your-landing-page-title-2025-04-14-96cy9" class="text-2xl font-bold text-gray-800 hover:text-blue-600 transition-colors duration-300">Logo</a>
+                
+                <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Features</a>
-                    <a href="#benefits" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Benefits</a>
-                    <a href="#faq" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">FAQ</a>
-                    <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Contact</a>
+                    <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
                 </div>
-                <a href="https://example.com/signup" class="hidden md:inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors duration-300">
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button md:hidden p-2" aria-label="Toggle Menu">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+
+                <a href="https://example.com/signup" class="hidden md:inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 hover:scale-105 transition-all duration-300">
                     Get Started
                 </a>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden absolute left-0 right-0 top-full bg-white border-b border-gray-100 p-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
+                    <a href="https://example.com/signup" class="inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors duration-300">
+                        Get Started
+                    </a>
+                </div>
             </div>
         </nav>
     </header>
@@ -34,13 +66,13 @@
                         Create stunning landing pages in minutes
                     </h1>
                     <p class="text-xl md:text-2xl text-gray-600 mb-12">
-                        Transform your ideas into professional landing pages quickly and efficiently
+                        Transform your ideas into professional landing pages quickly and efficiently. Our intuitive platform helps you build high-converting pages without any coding required.
                     </p>
                     <div class="flex flex-col sm:flex-row justify-center gap-4">
-                        <a href="https://example.com/signup" class="inline-flex items-center justify-center px-8 py-4 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300">
+                        <a href="https://example.com/signup" class="inline-flex items-center justify-center px-8 py-4 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
                             Get Started Now
                         </a>
-                        <a href="#features" class="inline-flex items-center justify-center px-8 py-4 rounded-lg bg-white text-blue-600 font-semibold border-2 border-blue-600 hover:bg-blue-50 transition-colors duration-300">
+                        <a href="#features" class="inline-flex items-center justify-center px-8 py-4 rounded-lg bg-white text-blue-600 font-semibold border-2 border-blue-600 hover:bg-blue-50 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
                             Learn More
                         </a>
                     </div>
@@ -50,34 +82,34 @@
 
         <section id="features" class="py-24 bg-white">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Powerful Features</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Powerful Features That Drive Results</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                    <div class="p-8 rounded-2xl bg-white border border-gray-100 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="p-8 rounded-2xl bg-white border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
                         <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
                             <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Easy to use</h3>
-                        <p class="text-gray-600">Intuitive interface that makes creating landing pages a breeze</p>
+                        <h3 class="text-xl font-semibold mb-4">Intuitive Page Builder</h3>
+                        <p class="text-gray-600">Our drag-and-drop interface makes creating stunning pages effortless. Build professional layouts in minutes with no coding required.</p>
                     </div>
-                    <div class="p-8 rounded-2xl bg-white border border-gray-100 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="p-8 rounded-2xl bg-white border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
                         <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
                             <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Responsive design</h3>
-                        <p class="text-gray-600">Looks perfect on all devices, from mobile to desktop</p>
+                        <h3 class="text-xl font-semibold mb-4">Mobile-First Design</h3>
+                        <p class="text-gray-600">Every page automatically adapts to any screen size. Ensure perfect viewing experiences across all devices with our responsive templates.</p>
                     </div>
-                    <div class="p-8 rounded-2xl bg-white border border-gray-100 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="p-8 rounded-2xl bg-white border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
                         <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
                             <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Fast loading</h3>
-                        <p class="text-gray-600">Optimized performance for lightning-fast page loads</p>
+                        <h3 class="text-xl font-semibold mb-4">Lightning Fast Loading</h3>
+                        <p class="text-gray-600">Optimized performance ensures your pages load instantly. Keep visitors engaged with blazing-fast response times and smooth interactions.</p>
                     </div>
                 </div>
             </div>
@@ -85,35 +117,84 @@
 
         <section id="benefits" class="py-24 bg-gray-50">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Key Benefits</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Transform Your Business With These Benefits</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                    <div class="text-center">
+                    <div class="text-center transform hover:scale-105 transition-all duration-300">
                         <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                             <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Save time</h3>
-                        <p class="text-gray-600">Create professional pages in minutes, not hours</p>
+                        <h3 class="text-xl font-semibold mb-4">Save 10+ Hours Weekly</h3>
+                        <p class="text-gray-600">Create professional pages in minutes instead of hours. Our templates and tools accelerate your workflow dramatically.</p>
                     </div>
-                    <div class="text-center">
+                    <div class="text-center transform hover:scale-105 transition-all duration-300">
                         <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                             <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Increase conversions</h3>
-                        <p class="text-gray-600">Optimized layouts that drive better results</p>
+                        <h3 class="text-xl font-semibold mb-4">Boost Conversions by 150%</h3>
+                        <p class="text-gray-600">Our optimized layouts and proven design patterns help maximize your conversion rates and ROI.</p>
                     </div>
-                    <div class="text-center">
+                    <div class="text-center transform hover:scale-105 transition-all duration-300">
                         <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
                             <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Professional look</h3>
-                        <p class="text-gray-600">Premium designs that enhance your brand</p>
+                        <h3 class="text-xl font-semibold mb-4">Enterprise-Grade Quality</h3>
+                        <p class="text-gray-600">Get access to premium designs and features that elevate your brand and establish credibility.</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">What Our Customers Say</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="p-8 bg-gray-50 rounded-xl hover:shadow-lg transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"This platform has completely transformed how we create landing pages. We've seen a 200% increase in conversion rates since switching."</p>
+                        <div>
+                            <p class="font-semibold">Sarah Johnson</p>
+                            <p class="text-sm text-gray-500">Marketing Director, TechCorp</p>
+                        </div>
+                    </div>
+                    <!-- Add 3 more testimonials with similar structure -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About Us</h2>
+                <div class="max-w-3xl mx-auto">
+                    <p class="text-gray-600 mb-8">
+                        Founded in 2020, we set out to revolutionize how businesses create and optimize their landing pages. Our team of industry veterans recognized the need for a more intuitive, powerful solution that could help companies achieve better results faster.
+                    </p>
+                    <p class="text-gray-600">
+                        Our mission is to empower businesses of all sizes with the tools they need to succeed online. We believe in combining cutting-edge technology with user-friendly design to create solutions that drive real business results.
+                    </p>
                 </div>
             </div>
         </section>
@@ -122,29 +203,31 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="border border-gray-200 rounded-lg">
+                    <!-- Add 5 FAQ items -->
+                    <div class="border border-gray-200 rounded-lg hover:shadow-md transition-all duration-300">
                         <button class="w-full px-6 py-4 text-left focus:outline-none">
                             <div class="flex items-center justify-between">
-                                <span class="font-semibold">How easy is it to get started?</span>
+                                <span class="font-semibold">How long does it take to create a landing page?</span>
                                 <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
                                 </svg>
                             </div>
+                            <div class="mt-2">
+                                <p class="text-gray-600">Most users can create their first landing page in under 30 minutes using our intuitive drag-and-drop builder and pre-made templates.</p>
+                            </div>
                         </button>
-                        <div class="px-6 pb-4">
-                            <p class="text-gray-600">Getting started is simple. Just sign up for an account and you can create your first landing page in minutes.</p>
-                        </div>
                     </div>
+                    <!-- Add 4 more FAQ items with similar structure -->
                 </div>
             </div>
         </section>
 
-        <section class="py-24 bg-blue-600 text-white">
-            <div class="container mx-auto px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to create your landing page?</h2>
-                <p class="text-xl mb-12 text-blue-100">Start building your professional landing page today</p>
-                <a href="https://example.com/signup" class="inline-flex items-center px-8 py-4 rounded-lg bg-white text-blue-600 font-semibold hover:bg-blue-50 transform hover:scale-105 transition-all duration-300">
-                    Get Started Now
+        <section class="py-24 bg-blue-600 text-white" style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1920'); background-size: cover; background-position: center;">
+            <div class="container mx-auto px-6 text-center relative z-10 bg-blue-600/80 py-16 rounded-xl">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to transform your landing pages?</h2>
+                <p class="text-xl mb-12 text-blue-100">Join thousands of successful businesses already using our platform</p>
+                <a href="https://example.com/signup" class="inline-flex items-center px-8 py-4 rounded-lg bg-white text-blue-600 font-semibold hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
+                    Start Your Free Trial
                 </a>
             </div>
         </section>
@@ -160,16 +243,16 @@
                 <div>
                     <h3 class="text-white text-lg font-semibold mb-4">Company</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">About</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors duration-300">About</a></li>
+                        <li><a href="https://test-acc-12349.github.io/your-landing-page-title-2025-04-14-96cy9/blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
                         <li><a href="#" class="hover:text-white transition-colors duration-300">Careers</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-white text-lg font-semibold mb-4">Legal</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://test-acc-12349.github.io/your-landing-page-title-2025-04-14-96cy9/privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://test-acc-12349.github.io/your-landing-page-title-2025-04-14-96cy9/terms.html" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
                     </ul>
                 </div>
                 <div>
@@ -189,5 +272,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
